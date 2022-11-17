@@ -2,7 +2,7 @@ print("Math module 0.1")
 import mathproblems
 running = True
 while running:
-    userchoice = input("Would you like to do Addition, Subtraction, Multiplication, or Division?: ")
+    userchoice = input("Would you like to do \"Addition\", \"Subtraction\", \"Multiplication\", or \"Division\"?: ")
     if userchoice == "Addition":
         mathproblems.addition()
         yesorno = input("Would you like to try another problem? Yes or No?: ")
